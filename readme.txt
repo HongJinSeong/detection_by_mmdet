@@ -15,3 +15,10 @@ test에 사용한 checkpoint - checkpoints/epoch_4.pth
 
 학습에 사용한 데이터셋 - splits/train.txt
 validation에 사용한 데이터셋 - splits/val.txt
+
+deformable DETR
+==> transformer 기반에 
+==> 작은 영역에 대한 detection 성능이 너무 안나옴...
+==> 의료 detection 은 작은 영역에대한 검출도 잘되야 되서 적합하지 않은 모델이였던것 같음..
+Resnest-Backbone + cascase rcnn
+==> 작은 영역

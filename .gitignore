@@ -1,0 +1,15 @@
+lesion_detect_DB.zip
+2D_BB/
+checkpoints/
+infer_show_checkpoints10/
+lesion_checkpoints_ver1/
+lesion_checkpoints_ver1_2/
+lesion_checkpoints_ver2/
+lesion_checkpoints_ver2_2/
+output_for_val/
+pretrain/
+splits/
+test/
+lesion_DB/
+mAP/
+2D_BB.zip

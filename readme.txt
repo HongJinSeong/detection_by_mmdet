@@ -10,7 +10,7 @@ ImportError: libGL ~~ 관련 에러 발생시 아래의 명령어로 필요 라�
 
 deformable DETR
 ==> transformer 기반에 NMS나 ROI Align을 통하여 train을 위한 detection 영역을 추려내는 것이 아니라 이러한 부분도 network를 통해서 처리하고자 함.
-==> 하지만 anchor를 통한 ROI Align이나 NMS를 통한 것이 없다보니 작은 영역에 대한 detection 성능이 너무 안나옴.
+==> 하지만 작은 영역에 대한 detection 성능이 너무 안나옴.
 ==> 의료 detection 은 작은 영역에대한 검출도 잘되야 되서 적합하지 않은 모델이였던것 같음.
 ==> 쓰려면 환경이 제한되고 target object 사이즈가 어느정도 큰 곳에 써야할 것으로 보인다.
 
